@@ -58,7 +58,7 @@ function clearBoard() {
 function createFood() {
     xFood = Math.floor(Math.random() * ((gameWidth - unitSize) - 0 + 1) / unitSize) * unitSize;
     yFood = Math.floor(Math.random() * ((gameHeight - unitSize) - 0 + 1) / unitSize) * unitSize;
-    const isBlackFood = Math.random() < 0.6;
+    const isBlackFood = Math.random() < 0.2;
 
     foodColor = isBlackFood ? 'black' : 'red';
 }
