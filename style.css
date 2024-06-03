@@ -1,0 +1,26 @@
+#game-container{
+    display:flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+}
+#game-board{
+    border: 3px solid;
+}
+#score-text{
+    font-family: Arial;
+    font-size: 50px;
+    margin: 20px;
+}
+#reset-btn{
+    margin: 10px;
+    font-family: Arial;
+    color: green;
+    background-color: lightgreen;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
